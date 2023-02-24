@@ -6,3 +6,9 @@
 body {
     background-color: #4A3DAE;
 }
+
+.arrow:hover {
+    color: #50D3E5 !important;
+    transition: 1.5s !important;
+    font-size: 85px !important;
+}
