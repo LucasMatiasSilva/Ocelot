@@ -1,0 +1,61 @@
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: linear-gradient(to top,#50D3E5, #4A3DAE);
+    width: 100vw;
+    height: 100vh;
+}
+
+.title {
+    font-size: 70pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.sub_title {
+    font-size: 20pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.description {  
+    font-size: 20pt;
+    font-family: 'Mukta Mahee', sans-serif;
+}
+
+.btn_singIn {
+    background: none;
+    border: none;   
+    border-bottom: 3px solid #fff;
+    font-family: 'Mukta Mahee', sans-serif;
+    font-size: 15pt;
+    font-weight: bold;
+}
+
+.btn_singIn:hover {
+    font-size: 20pt;
+    transition: 1.5s;
+    border-bottom: 3px solid #4A3DAE;
+    color: #4A3DAE !important;
+}
+
+.btn_singUp {
+    background: #fff;
+    border: none;
+    width: 90px;
+    height: 40px;
+    font-size: 15pt;
+    font-weight: bold;
+    border-radius: 50em;
+    color: #50CCE3;
+}
+
+.btn_singUp:hover {
+    font-size: 20pt;
+    width: 150px;
+    height: 50px;
+    transition: 1.5s;
+    border-bottom: 3px solid #4A3DAE;
+    color: #4A3DAE;
+}
