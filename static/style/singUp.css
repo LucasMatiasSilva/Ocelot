@@ -1,14 +1,41 @@
 * {
     padding: 0;
-    margin: 0;
+    margin: 2px;
 }
 
 body {
-    background-color: #4A3DAE;
+    background-color: #4A3DAE !important;
 }
 
 .arrow:hover {
-    color: #50D3E5 !important;
+    font-weight: bold;
     transition: 1.5s !important;
-    font-size: 85px !important;
+    font-size: 80px !important;
+}
+
+.title {
+    font-size: 70pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.sub_title {
+    font-size: 20pt;
+    font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.pass_row {
+    display: inline-block !important;
+}
+
+.singUp_form {
+    background: transparent;
+    border: 2px solid #50D3E5;
+    border-radius: 20px;
+    backdrop-filter: blur(50px);
+    padding: 15px;
+}
+
+.btn_singUp {
+    background: #50D3E5 !important;
+    width: 10% !important;
 }
